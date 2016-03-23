@@ -1,6 +1,9 @@
 ﻿var MvcAngular = angular.module("MvcAngular", ["ngRoute"]);
 MvcAngular.controller("LandingPageController", LandingPageController);
-var configFunction = function ($routeProvider) {
+MvcAngular.controller("LoginController", LoginController);
+MvcAngular.factory("AuthHttpResponseInterceptor", AuthHttpResponseInterceptor);
+
+var configFunction = function ($routeProvider, $httpProvider) {
     $routeProvider.
        when("/routeOne", {
            templateUrl: "routesDemo/one"
@@ -10,7 +13,12 @@ var configFunction = function ($routeProvider) {
         })
         .when("/routeThree", {
             templateUrl: "routesDemo/three"
+        })
+        .when("/login", {
+            templateUrl: "/Account/Login",
+            controller: LoginController
         });
+    $httpProvider.interceptors.push("AuthHttpResponseInterceptor");    
 }
-configFunction.$inject = ["$routeProvider"];
+configFunction.$inject = ["$routeProvider", "$httpProvider"];
 MvcAngular.config(configFunction);
