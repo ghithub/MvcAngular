@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<body>
+
+<div ng-app="myApp" ng-controller="MC as mc">
+
+<ul>
+   <li ng-repeat="item in mc.items">
+      {{item.name}}
+   </li>
+</ul>
+
+<span id="item"></span>
+</div>
+
+<script>
+
+function mainController () {
+    this.items = [{
+		name: 'Scuba Diving Kit',
+		id: 7297510
+	},{
+		name: 'Snorkel',
+		id: 0278916
+	},{
+		name: 'Wet Suit',
+		id: 2389017
+	},{
+		name: 'Beach Towel',
+		id: 1000983
+  }];
+}
+
+var app = angular.module("myApp", []);
+app.controller("MC", mainController);
+
+</script>
+
+<p>This example shows how to use controller as.</p>
+
+</body>
+</html>

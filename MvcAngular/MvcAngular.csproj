@@ -325,7 +325,13 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\main.js" />
     <Content Include="Scripts\MvcAngular.js" />
+    <Content Include="Pagelets\about.html" />
+    <Content Include="Pagelets\contact.html" />
+    <Content Include="Pagelets\contact2.html" />
+    <Content Include="Pagelets\controllerAs.html" />
+    <Content Include="Pagelets\home.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -370,6 +376,7 @@
     <Content Include="Views\RoutesDemo\One.cshtml" />
     <Content Include="Views\RoutesDemo\Two.cshtml" />
     <Content Include="Views\RoutesDemo\Three.cshtml" />
+    <Content Include="index.html" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

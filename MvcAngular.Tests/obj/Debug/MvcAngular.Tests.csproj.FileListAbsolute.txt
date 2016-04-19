@@ -18,9 +18,6 @@ C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\EntityFramework.dll
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Web.Optimization.dll
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Owin.dll
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\WebMatrix.WebData.dll
-C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.dll
-C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.Owin.Security.dll
-C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.Owin.dll
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\WebMatrix.Data.dll
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\MvcAngular.pdb
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Web.Helpers.xml
@@ -36,9 +33,6 @@ C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.Data.OData.xml
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Spatial.xml
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\EntityFramework.xml
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\WebMatrix.WebData.xml
-C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.Owin.Security.Cookies.xml
-C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.Owin.Security.xml
-C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.Owin.xml
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\WebMatrix.Data.xml
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\de\Microsoft.Data.Edm.resources.dll
 C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\es\Microsoft.Data.Edm.resources.dll
