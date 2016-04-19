@@ -100,3 +100,4 @@ C:\dev\MvcAngular\MvcAngular\bin\zh-Hant\System.Spatial.resources.dll
 C:\dev\MvcAngular\MvcAngular\obj\Debug\MvcAngular.csprojResolveAssemblyReference.cache
 C:\dev\MvcAngular\MvcAngular\obj\Debug\MvcAngular.dll
 C:\dev\MvcAngular\MvcAngular\obj\Debug\MvcAngular.pdb
+C:\dev\MvcAngular\MvcAngular\bin\MvcAngular.dll.config

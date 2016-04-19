@@ -23,7 +23,11 @@ namespace MvcAngular
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Scripts/modernizr-*"));
 
+            bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
+                        "~/Scripts/bootstrap.min.js"));
+
             bundles.Add(new StyleBundle("~/Content/css").Include("~/Content/site.css"));
+            bundles.Add(new StyleBundle("~/Content/bootstrap/css").Include("~/Content/bootstrap*.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
                         "~/Content/themes/base/jquery.ui.core.css",
@@ -39,6 +43,10 @@ namespace MvcAngular
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
 
+            bundles.Add(new ScriptBundle("~/bundles/angular").Include(
+                "//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular.min.js",
+                "//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.2/angular-route.min.js"
+                ));
             bundles.Add(new ScriptBundle("~/bundles/MvcAngular")
                 .IncludeDirectory("~/Scripts/Controllers", "*.js")
                 .IncludeDirectory("~/Scripts/Factories", "*.js")

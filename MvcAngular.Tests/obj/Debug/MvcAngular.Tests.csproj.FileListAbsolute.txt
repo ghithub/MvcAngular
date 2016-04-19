@@ -70,3 +70,11 @@ C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\zh-Hant\System.Spatial.resources.dl
 C:\dev\MvcAngular\MvcAngular.Tests\obj\Debug\MvcAngular.Tests.csprojResolveAssemblyReference.cache
 C:\dev\MvcAngular\MvcAngular.Tests\obj\Debug\MvcAngular.Tests.dll
 C:\dev\MvcAngular\MvcAngular.Tests\obj\Debug\MvcAngular.Tests.pdb
+C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Web.Http.dll
+C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Web.Http.WebHost.dll
+C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Web.Http.xml
+C:\dev\MvcAngular\MvcAngular.Tests\bin\Debug\System.Web.Http.WebHost.xml
