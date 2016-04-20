@@ -36,6 +36,14 @@
     <div id="main">
         <!-- angular templating -->
         <div ng-view></div>
+    </div>   
+    <div ng-controller="WebApiController">
+       {{result}}<br/>
+        {{result.data}}<br />
+        {{result.status}}<br />
+        {{result.config}}<br />
+        Status: {{result.statusText}}<br />
+        {{error.Message}}
     </div>
 </body>
 </html>

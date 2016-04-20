@@ -45,4 +45,20 @@ app.controller("contact2Controller", function ($scope) {
     $scope.message = "contact2 only!";
 });
 
+app.service("WebApiService", function ($http, $q) {
+    return {
+        async: function () {
+            return $http.get("api/values"); //returns a promise.
+        }
+    };
+});
 
+app.controller("WebApiController", function ($scope, WebApiService) {
+    WebApiService.async().then(function (d) {
+        console.log("data from web api call: ", d.data);
+        $scope.result = d;
+    }, function (d) {
+        console.log("An error has occurred.", d.data);
+        $scope.error = d.data;
+    });
+});
